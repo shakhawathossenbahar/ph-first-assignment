@@ -4,6 +4,7 @@
    box-sizing: border-box;
 }
 
+
 .btn{
    background-color: #4E47FF;
    color: white;
@@ -12,6 +13,8 @@
    width: 132px;
    border: white;
 }
+
+/* 1st BOX - Banner BOX */
 
 header{
    width: 100%;
@@ -41,4 +44,40 @@ header nav h3{
    font-size: 65px;
    margin-bottom: 20px;
    font-weight: bold;
+}
+
+
+/* 2nd BOX - Action BOX */
+
+.action-container{
+   margin: 100px 150px;
+   border: 1px solid black;
+}
+
+.action{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: white;
+}
+
+.action-photo{
+   border-radius: 48px;
+   width: 403px;
+   height: 328px;
+}
+
+.action-photo{
+   border-radius: 48px;
+}
+
+.action-text h2{
+   font-weight: bold;
+   font-size: 42px;
+}
+
+.action-text p{
+   color: #252432;
+   font-size: 24px;
+   margin: 23px 10px 23px 0px;
 }
