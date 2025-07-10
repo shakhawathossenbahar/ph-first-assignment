@@ -19,7 +19,7 @@
 header{
    width: 100%;
    padding: 1px;
-   background-image: url(/assets/Hero-bg.png);
+   background-image: url(./assets/Hero-bg.png);
 }
 
 .header-nav{
