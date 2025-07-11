@@ -51,7 +51,6 @@ header nav h3{
 
 .action-container{
    margin: 100px 150px;
-   border: 1px solid black;
 }
 
 .action{
@@ -80,4 +79,42 @@ header nav h3{
    color: #252432;
    font-size: 24px;
    margin: 23px 10px 23px 0px;
+}
+
+
+/* 3rd BOX - Productive User */
+
+.productive-user{
+   background-color: #4E47FF20;
+   margin: 20px 159px 30px 141px;
+   padding: 50px 80px;
+   border-radius: 24px;
+   /* text-align: center; */
+}
+
+.productive-title{
+   font-weight: bold;
+   font-size: 38px;
+   color: #252432;
+   margin-bottom: 40px;
+   text-align: center;
+}
+
+.stats{
+   display: flex;
+   justify-content: space-between;
+}
+
+.stat-box{
+   text-align: center;
+}
+
+.stat-number{
+   color: #4E47FF;
+   font-weight: bold;
+   font-size: 80px;
+}
+
+.stat-info{
+   color: 00000050;
 }
